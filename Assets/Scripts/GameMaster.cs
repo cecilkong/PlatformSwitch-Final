@@ -7,7 +7,7 @@ public class GameMaster : MonoBehaviour
     private static GameMaster instance;
     public Vector2 lastCheckPointPos;
 
-
+    // Part of the checkpoints--not implemented yet, work in progress
     void Awake()
     {
         if (instance == null)
@@ -20,10 +20,5 @@ public class GameMaster : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    
 }

@@ -9,7 +9,7 @@ public class KillPlayer : MonoBehaviour
     public int Respawn;
     public AudioSource deathSound;
     //public GameObject playerObject;
-   // private GameMaster gm;
+    // private GameMaster gm;
 
 
     IEnumerator OnTriggerEnter2D(Collider2D other)

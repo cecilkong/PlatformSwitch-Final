@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-
+    // Checkpoints are currently not implemented--this is a work in progress
+    
     private GameMaster gm;
 
     void Start()

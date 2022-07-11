@@ -16,11 +16,11 @@ public class TitleScreen : MonoBehaviour
 
     void Update()
     {
+        // Switches the background and text color
         if (Input.GetKeyDown("q") || Input.GetKeyDown(KeyCode.LeftShift))
         {
             count++;
         }
-
         if (count % 2 == 0)
         {
             lightBackground.SetActive(false);
@@ -36,6 +36,8 @@ public class TitleScreen : MonoBehaviour
             darkText.SetActive(true);
         }
 
+        // The game starts in a few seconds after the player switches the
+        // color of the background and text twice
         if (count >= 2)
         {
             Invoke("StartGame", startGameDelay);

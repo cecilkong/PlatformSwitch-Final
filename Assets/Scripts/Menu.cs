@@ -6,8 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    // Manages all of the menu navigation and buttons
+    
     public GameObject pauseScreen;
-    // Start is called before the first frame update
     public void Pause()
     {
         pauseScreen.SetActive(true);
@@ -25,11 +26,14 @@ public class Menu : MonoBehaviour
         Application.Quit();
     }
     
+    // Restarts current level
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1f;
     }
     
+    // Called after the player reaches the goal of each level
     public void LoadNextLevel()
     {
         if (SceneManager.GetActiveScene().buildIndex + 1 < 3)

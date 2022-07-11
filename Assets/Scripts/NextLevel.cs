@@ -8,6 +8,7 @@ public class NextLevel : MonoBehaviour
 {
     public AudioSource completeLevelAudio;
 
+    // Called after player reaches the end of a level, starts next level
     IEnumerator OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))

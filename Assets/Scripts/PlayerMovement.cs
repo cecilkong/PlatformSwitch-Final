@@ -7,25 +7,23 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     [SerializeField] private float runSpeed = 2f;
+    
+    // Jumping
     [SerializeField] private float jumpSpeed = 3f;
     private bool isGrounded;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private Transform groundCheckL;
     [SerializeField] private Transform groundCheckR;
-
     private float coyoteTime = 0.1f;
     private float coyoteTimeCounter;
-
     private float jumpBufferTime = 0.05f;
     private float jumpBufferCounter;
 
-
+    // Sound effects
     public AudioSource jumpAudio;
     public AudioSource walkAudio;
 
     private GameMaster gm;
-
-    // Start is called before the first frame update
 
     void Start()
     {
@@ -38,8 +36,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
-    //Update is called once per frame
+    
     void FixedUpdate()
     {
         // Left/Right Movement
@@ -65,13 +62,11 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        // Jumping 
-
-        
+        // JUMPING
         // Checks if player is grounded 
         if (Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"))
-        || Physics2D.Linecast(transform.position, groundCheckL.position, 1 << LayerMask.NameToLayer("Ground"))
-        || Physics2D.Linecast(transform.position, groundCheckR.position, 1 << LayerMask.NameToLayer("Ground")))
+            || Physics2D.Linecast(transform.position, groundCheckL.position, 1 << LayerMask.NameToLayer("Ground"))
+            || Physics2D.Linecast(transform.position, groundCheckR.position, 1 << LayerMask.NameToLayer("Ground")))
         {
             isGrounded = true;
         }
@@ -81,7 +76,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Coyote Time & Jump Buffering
-
         if (isGrounded)
         {
             coyoteTimeCounter = coyoteTime;
@@ -100,7 +94,7 @@ public class PlayerMovement : MonoBehaviour
             jumpBufferCounter -= Time.deltaTime;
         }
 
-        //the jump itself
+        // The jump itself
         if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
