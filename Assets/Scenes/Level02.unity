@@ -4120,11 +4120,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 894092637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a55487f2d713f90489e2a6d4580675b1, type: 3}
+  m_Script: {fileID: 11500000, guid: c74a32003e3a3024abe66c6f3e86d78e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 1
-  deathSound: {fileID: 1543568708}
+  Respawn: 0
+  deathSound: {fileID: 0}
 --- !u!212 &894092641
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5641,11 +5641,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1211040357}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a55487f2d713f90489e2a6d4580675b1, type: 3}
+  m_Script: {fileID: 11500000, guid: c74a32003e3a3024abe66c6f3e86d78e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 1
-  deathSound: {fileID: 1543568708}
+  Respawn: 0
+  deathSound: {fileID: 0}
 --- !u!212 &1211040361
 SpriteRenderer:
   m_ObjectHideFlags: 0
