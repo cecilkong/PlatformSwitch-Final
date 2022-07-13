@@ -331,6 +331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4274711073676571830, guid: 6d0d7878887da4c5c8f683effbde1f10, type: 3}
+      propertyPath: m_TagString
+      value: GM
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d0d7878887da4c5c8f683effbde1f10, type: 3}
 --- !u!1 &313936349
@@ -713,7 +717,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedLevel: 0
-  completeLevelAudio: {fileID: 2040589109}
 --- !u!222 &898339587
 CanvasRenderer:
   m_ObjectHideFlags: 0
