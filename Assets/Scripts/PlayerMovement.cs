@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
-        transform.position = gm.lastCheckPointPos;
+        //transform.position = gm.lastCheckPointPos;
     }
 
 
