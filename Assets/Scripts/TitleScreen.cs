@@ -8,8 +8,8 @@ public class TitleScreen : MonoBehaviour
 {
     private float count = 0;
     [SerializeField] private float startGameDelay = 4f;
-    [SerializeField] private GameObject darkBackground;
-    [SerializeField] private GameObject lightBackground;
+    // [SerializeField] private GameObject darkBackground;
+    // [SerializeField] private GameObject lightBackground;
     [SerializeField] private GameObject darkText;
     [SerializeField] private GameObject lightText;
     
@@ -23,25 +23,25 @@ public class TitleScreen : MonoBehaviour
         }
         if (count % 2 == 0)
         {
-            lightBackground.SetActive(false);
+            // lightBackground.SetActive(false);
             darkText.SetActive(false);
-            darkBackground.SetActive(true);
+            // darkBackground.SetActive(true);
             lightText.SetActive(true);
         }
         else
         {
-            darkBackground.SetActive(false);
+            // darkBackground.SetActive(false);
             lightText.SetActive(false);
-            lightBackground.SetActive(true);
+            // lightBackground.SetActive(true);
             darkText.SetActive(true);
         }
 
         // The game starts in a few seconds after the player switches the
         // color of the background and text twice
-        if (count >= 2)
-        {
-            Invoke("StartGame", startGameDelay);
-        }
+        // if (count >= 2)
+        // {
+        //     Invoke("StartGame", startGameDelay);
+        // }
     }
 
     public void StartGame()
