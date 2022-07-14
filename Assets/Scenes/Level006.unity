@@ -712,11 +712,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3342030066185414344, guid: 4c8d6d20c5c6f448cb8db1c040296cdf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.0605
+      value: -2.9505
       objectReference: {fileID: 0}
     - target: {fileID: 3342030066185414344, guid: 4c8d6d20c5c6f448cb8db1c040296cdf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.025
+      value: -3.0569997
       objectReference: {fileID: 0}
     - target: {fileID: 3342030066185414344, guid: 4c8d6d20c5c6f448cb8db1c040296cdf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -995,7 +995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3342030066185414344, guid: 4c8d6d20c5c6f448cb8db1c040296cdf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.075
+      value: 4.365
       objectReference: {fileID: 0}
     - target: {fileID: 3342030066185414344, guid: 4c8d6d20c5c6f448cb8db1c040296cdf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2003,8 +2003,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b00876644a94d47bcb42d8a1eafc7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  redMap: {fileID: 1135164231}
-  blueMap: {fileID: 1258819109}
+  redMap: {fileID: 1258819109}
+  blueMap: {fileID: 1135164231}
   cameraShake: {fileID: 8862677874033683497}
   shakeMagnitude: 0.05
   shakeDuration: 0.1
@@ -2764,7 +2764,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1135164232
 Transform:
   m_ObjectHideFlags: 0
@@ -3958,11 +3958,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3342030066185414344, guid: 4c8d6d20c5c6f448cb8db1c040296cdf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.95
+      value: -1.84
       objectReference: {fileID: 0}
     - target: {fileID: 3342030066185414344, guid: 4c8d6d20c5c6f448cb8db1c040296cdf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.4580002
+      value: -2.49
       objectReference: {fileID: 0}
     - target: {fileID: 3342030066185414344, guid: 4c8d6d20c5c6f448cb8db1c040296cdf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5077,7 +5077,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c74a32003e3a3024abe66c6f3e86d78e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 0
   deathSound: {fileID: 0}
 --- !u!61 &1716557411
 BoxCollider2D:
@@ -5197,7 +5196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3342030066185414344, guid: 4c8d6d20c5c6f448cb8db1c040296cdf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.4900002
+      value: -6.13
       objectReference: {fileID: 0}
     - target: {fileID: 3342030066185414344, guid: 4c8d6d20c5c6f448cb8db1c040296cdf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6001,7 +6000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3342030066185414344, guid: 4c8d6d20c5c6f448cb8db1c040296cdf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.7
+      value: 2.99
       objectReference: {fileID: 0}
     - target: {fileID: 3342030066185414344, guid: 4c8d6d20c5c6f448cb8db1c040296cdf, type: 3}
       propertyPath: m_LocalPosition.y
