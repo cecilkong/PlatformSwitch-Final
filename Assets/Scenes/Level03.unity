@@ -6773,7 +6773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf51e95e8c9f454f9a2508823f11e1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  completeLevelAudio: {fileID: 0}
+  completeLevelAudio: {fileID: 950381808}
 --- !u!61 &1321746736
 BoxCollider2D:
   m_ObjectHideFlags: 0
