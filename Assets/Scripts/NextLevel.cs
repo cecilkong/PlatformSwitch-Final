@@ -13,7 +13,7 @@ public class NextLevel : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (SceneManager.GetActiveScene().buildIndex + 1 < 3)
+            if (SceneManager.GetActiveScene().buildIndex + 1 < 7)
             {
                 completeLevelAudio.Play();
 
