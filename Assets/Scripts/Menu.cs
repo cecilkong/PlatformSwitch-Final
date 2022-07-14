@@ -25,11 +25,23 @@ public class Menu : MonoBehaviour
     {
         Application.Quit();
     }
-    
+
+    public void returnToMenu()
+    {
+        SceneManager.LoadScene("Tutorial");
+        Time.timeScale = 1f;
+    }
+
     // Restarts current level
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1f;
+    }
+    
+    public void LoadLevelSelection()
+    {
+        SceneManager.LoadScene("LevelSelect");
         Time.timeScale = 1f;
     }
     

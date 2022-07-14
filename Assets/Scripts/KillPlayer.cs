@@ -6,7 +6,7 @@ using UnityEngine.Audio;
 
 public class KillPlayer : MonoBehaviour
 {
-    public int Respawn;
+    //public int Respawn;
     public AudioSource deathSound;
     //public GameObject playerObject;
     // private GameMaster gm;
@@ -19,7 +19,7 @@ public class KillPlayer : MonoBehaviour
             deathSound.Play();
             //Destroy(playerObject);
             yield return new WaitForSeconds(deathSound.clip.length);
-            SceneManager.LoadScene(Respawn);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 
