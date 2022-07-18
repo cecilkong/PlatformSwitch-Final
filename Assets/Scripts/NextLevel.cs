@@ -7,21 +7,24 @@ using UnityEngine.Audio;
 public class NextLevel : MonoBehaviour
 {
     public AudioSource completeLevelAudio;
+    public SceneLoader sceneLoader;
+    private int nextSceneIndex;
 
     // Called after player reaches the end of a level, starts next level
     IEnumerator OnTriggerEnter2D(Collider2D other)
     {
+        nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+
         if (other.CompareTag("Player"))
         {
-            if (SceneManager.GetActiveScene().buildIndex + 1 < 11)
+            if (nextSceneIndex <= sceneLoader.numLevels)
             {
+                // audio
                 completeLevelAudio.Play();
+                yield return new WaitForSeconds(completeLevelAudio.clip.length / 2);
 
-                yield return new WaitForSeconds(completeLevelAudio.clip.length);
-                Debug.Log(completeLevelAudio.clip.length);
-
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                
+                // start scene change
+                StartCoroutine(sceneLoader.LoadScene(nextSceneIndex));
             }
         }
     }
