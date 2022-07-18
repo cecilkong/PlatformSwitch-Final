@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: 3a7ff9e57b54144e4948e4aea39af9dd
   - enabled: 1
+    path: Assets/Scenes/Level 001.unity
+    guid: 9574073ff796d477d8b3f2fa7984b995
+  - enabled: 1
+    path: Assets/Scenes/Level 002.unity
+    guid: 4e62ced58a5ad418286c9fb58beb846a
+  - enabled: 1
+    path: Assets/Scenes/Level 003.unity
+    guid: bbf9f021862a742afa88550964141db6
+  - enabled: 1
+    path: Assets/Scenes/Level 004.unity
+    guid: ef2109da10f544cef98d610a4ec92a2e
+  - enabled: 1
     path: Assets/Scenes/Level01.unity
     guid: 35ecac7f02f543248812b4428015e1fb
   - enabled: 1
@@ -24,11 +36,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Level05.unity
     guid: e098a8d134a074b36b0a9a9765638b14
   - enabled: 1
-    path: Assets/Scenes/Level006.unity
+    path: Assets/Scenes/Level06.unity
     guid: 11f7ca1da3aa240989ae756616fa0c56
   - enabled: 1
-    path: Assets/Scenes/End.unity
-    guid: 9d624b89fe043421a99ab41ff0c8c0fe
+    path: Assets/Scenes/Win.unity
+    guid: e33c10a9e291240988673a205304fc84
   - enabled: 1
     path: Assets/Scenes/LevelSelect.unity
     guid: 1530651f6f4f9054fb1e20b45b35cc67
