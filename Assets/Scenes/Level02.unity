@@ -406,6 +406,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8835349776628639339, guid: c3b73ae76f3104ce796086d5054fb8e7, type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 1543568708}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3b73ae76f3104ce796086d5054fb8e7, type: 3}
 --- !u!1001 &98488191
@@ -1860,7 +1864,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6301862318089533691, guid: 792c43145a45541bf9b896e720bbc9ad, type: 3}
       propertyPath: m_Color.a
-      value: 0.7607843
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6301862318089533691, guid: 792c43145a45541bf9b896e720bbc9ad, type: 3}
       propertyPath: m_Color.b

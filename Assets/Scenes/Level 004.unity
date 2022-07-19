@@ -458,6 +458,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8835349776628639339, guid: c3b73ae76f3104ce796086d5054fb8e7, type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 1093451904}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3b73ae76f3104ce796086d5054fb8e7, type: 3}
 --- !u!1001 &769991275
@@ -866,6 +870,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1612793838565626453, guid: f32cfe754e9c78343b2355bbf586ff78, type: 3}
+      propertyPath: m_Name
+      value: Death Sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 1612793840238461050, guid: f32cfe754e9c78343b2355bbf586ff78, type: 3}
+      propertyPath: m_Name
+      value: Finish Level
+      objectReference: {fileID: 0}
     - target: {fileID: 2833128436339500932, guid: f32cfe754e9c78343b2355bbf586ff78, type: 3}
       propertyPath: m_Name
       value: Sounds
@@ -934,6 +946,11 @@ AudioSource:
 --- !u!82 &1093451903 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 1612793840238461048, guid: f32cfe754e9c78343b2355bbf586ff78, type: 3}
+  m_PrefabInstance: {fileID: 1093451899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1093451904 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1612793838565626451, guid: f32cfe754e9c78343b2355bbf586ff78, type: 3}
   m_PrefabInstance: {fileID: 1093451899}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1135164231
@@ -1978,15 +1995,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3169962230927950021, guid: 8ee3217e26d5b438ba6a9c245fa643e1, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3169962230927950021, guid: 8ee3217e26d5b438ba6a9c245fa643e1, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3169962230927950021, guid: 8ee3217e26d5b438ba6a9c245fa643e1, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3169962231498645491, guid: 8ee3217e26d5b438ba6a9c245fa643e1, type: 3}
       propertyPath: m_Name
@@ -1994,7 +2011,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3169962231498645491, guid: 8ee3217e26d5b438ba6a9c245fa643e1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3169962231498645500, guid: 8ee3217e26d5b438ba6a9c245fa643e1, type: 3}
       propertyPath: m_Pivot.x
@@ -2082,11 +2099,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3169962232476121460, guid: 8ee3217e26d5b438ba6a9c245fa643e1, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3169962232476121460, guid: 8ee3217e26d5b438ba6a9c245fa643e1, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee3217e26d5b438ba6a9c245fa643e1, type: 3}

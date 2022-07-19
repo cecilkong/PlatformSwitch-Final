@@ -794,7 +794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3211387945290770329, guid: 792c43145a45541bf9b896e720bbc9ad, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3754321375953862601, guid: 792c43145a45541bf9b896e720bbc9ad, type: 3}
       propertyPath: m_RootOrder
@@ -2070,6 +2070,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8835349776628639339, guid: c3b73ae76f3104ce796086d5054fb8e7, type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 1093451904}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3b73ae76f3104ce796086d5054fb8e7, type: 3}
 --- !u!1001 &944391308
@@ -2682,6 +2686,11 @@ AudioSource:
 --- !u!82 &1093451903 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 1612793840238461048, guid: f32cfe754e9c78343b2355bbf586ff78, type: 3}
+  m_PrefabInstance: {fileID: 1093451899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1093451904 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1612793838565626451, guid: f32cfe754e9c78343b2355bbf586ff78, type: 3}
   m_PrefabInstance: {fileID: 1093451899}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1135164231
@@ -3749,7 +3758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6301862318089533691, guid: 792c43145a45541bf9b896e720bbc9ad, type: 3}
       propertyPath: m_Color.a
-      value: 0.7607843
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6301862318089533691, guid: 792c43145a45541bf9b896e720bbc9ad, type: 3}
       propertyPath: m_Color.b

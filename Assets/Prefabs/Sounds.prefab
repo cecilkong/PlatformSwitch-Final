@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1612793838565626452}
   - component: {fileID: 1612793838565626451}
   m_Layer: 0
-  m_Name: Death Sound (1)
+  m_Name: Death Sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 1612793840238461049}
   - component: {fileID: 1612793840238461048}
   m_Layer: 0
-  m_Name: Finish Level (1)
+  m_Name: Finish Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
