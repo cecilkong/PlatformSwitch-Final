@@ -11,7 +11,13 @@ public class SceneLoader : MonoBehaviour
     public int numLevels;
     public TextMeshProUGUI levelText;
     [SerializeField] private float levelStartDelay = 2f;
-    public GameObject crossFadeObject;
+    // public NextLevel crossFadeObj;
+    // private GameObject CFO; 
+
+    // void Awake()
+    // {
+    //     CFO = crossFadeObj.crossFadeObject.SetActive(false);
+    // }
 
     public void Start()
     {
@@ -19,16 +25,15 @@ public class SceneLoader : MonoBehaviour
         numLevels = 12;
     }
 
-    public IEnumerator LoadScene(int sceneIndex, float levelStartDelay, GameObject crossFadeObject)
+    // public IEnumerator LoadScene(int sceneIndex, float levelStartDelay, GameObject crossFadeObject)
+    public IEnumerator LoadScene(int sceneIndex, float levelStartDelay)
     {
         if (sceneIndex <= numLevels)
         {
             crossFade.SetTrigger("Start");
             yield return new WaitForSeconds(levelStartDelay);
             SceneManager.LoadScene(sceneIndex);
-            yield return new WaitForSeconds(1f);
-            //crossFadeObject.gameObject.SetActive(false);
-            crossFadeObject.SetActive(false);
+            // crossFadeObject.SetActive(false);
         }
     }
 }

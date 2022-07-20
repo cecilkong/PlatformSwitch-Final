@@ -20,7 +20,8 @@ public class ReturnToMenu : MonoBehaviour
             yield return new WaitForSeconds(completeLevelAudio.clip.length / 2);
 
             // start scene change
-            StartCoroutine(sceneLoader.LoadScene(0, 2f, crossFadeObject));
+            // StartCoroutine(sceneLoader.LoadScene(0, 2f, crossFadeObject));
+            StartCoroutine(sceneLoader.LoadScene(0, 0.8f));
         }
     }
 }

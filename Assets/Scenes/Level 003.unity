@@ -1353,6 +1353,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1593010865}
     - target: {fileID: -5540309873027596830, guid: ba7a9a4d5c89149098ca6eddc919f5d4, type: 3}
+      propertyPath: crossFadeObject
+      value: 
+      objectReference: {fileID: 2079609883}
+    - target: {fileID: -5540309873027596830, guid: ba7a9a4d5c89149098ca6eddc919f5d4, type: 3}
       propertyPath: completeLevelAudio
       value: 
       objectReference: {fileID: 1093451903}
@@ -1936,7 +1940,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7452880408043563654, guid: c217e45eab3694c639a86dff82c5957e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c217e45eab3694c639a86dff82c5957e, type: 3}
@@ -1954,6 +1958,11 @@ MonoBehaviour:
 --- !u!95 &2079609882 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 7452880408043563652, guid: c217e45eab3694c639a86dff82c5957e, type: 3}
+  m_PrefabInstance: {fileID: 2079609880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2079609883 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7452880408043563654, guid: c217e45eab3694c639a86dff82c5957e, type: 3}
   m_PrefabInstance: {fileID: 2079609880}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2090493118
