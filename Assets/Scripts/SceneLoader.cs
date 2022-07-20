@@ -13,7 +13,7 @@ public class SceneLoader : MonoBehaviour
     public void Start()
     {
         levelText.text = "level " + SceneManager.GetActiveScene().buildIndex.ToString();
-        numLevels = 11;
+        numLevels = 12;
     }
 
     public IEnumerator LoadScene(int sceneIndex)
