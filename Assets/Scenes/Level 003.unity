@@ -236,6 +236,17 @@ Transform:
   m_Father: {fileID: 769991282}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &446918736 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4892265594880921451, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+  m_PrefabInstance: {fileID: 769991275}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769991276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5fe02908583e4ec6a4820beca6fbe21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &481811667
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,6 +369,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1093451902}
     - target: {fileID: -4892265594880921451, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+      propertyPath: wallCheckL
+      value: 
+      objectReference: {fileID: 769991281}
+    - target: {fileID: -4892265594880921451, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+      propertyPath: wallCheckR
+      value: 
+      objectReference: {fileID: 769991279}
+    - target: {fileID: -4892265594880921451, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
       propertyPath: groundCheck
       value: 
       objectReference: {fileID: 417528384}
@@ -369,6 +388,14 @@ PrefabInstance:
       propertyPath: groundCheckR
       value: 
       objectReference: {fileID: 2144257427}
+    - target: {fileID: -4892265594880921451, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+      propertyPath: wallCheckLTop
+      value: 
+      objectReference: {fileID: 769991280}
+    - target: {fileID: -4892265594880921451, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+      propertyPath: wallCheckRTop
+      value: 
+      objectReference: {fileID: 769991278}
     - target: {fileID: 417528384, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -483,6 +510,26 @@ MonoBehaviour:
   shakeMagnitude: 0.05
   shakeDuration: 0.1
   switchAudio: {fileID: 1093451900}
+--- !u!4 &769991278 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8513050729015145485, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+  m_PrefabInstance: {fileID: 769991275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &769991279 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1901869246017126633, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+  m_PrefabInstance: {fileID: 769991275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &769991280 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8438503792158706882, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+  m_PrefabInstance: {fileID: 769991275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &769991281 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4475133672352804851, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+  m_PrefabInstance: {fileID: 769991275}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &769991282 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3328400791846352351, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
@@ -1887,6 +1934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrossFade
       objectReference: {fileID: 0}
+    - target: {fileID: 7452880408043563654, guid: c217e45eab3694c639a86dff82c5957e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c217e45eab3694c639a86dff82c5957e, type: 3}
 --- !u!114 &2079609881 stripped
@@ -1968,6 +2019,14 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 8835349776628639339, guid: c3b73ae76f3104ce796086d5054fb8e7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 8835349776628639339, guid: c3b73ae76f3104ce796086d5054fb8e7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 446918736}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3b73ae76f3104ce796086d5054fb8e7, type: 3}
 --- !u!1001 &2110247687

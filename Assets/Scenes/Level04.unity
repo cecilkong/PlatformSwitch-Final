@@ -836,6 +836,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (8)
@@ -1090,6 +1102,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (4)
@@ -1948,6 +1972,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (19)
@@ -2108,6 +2144,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (12)
@@ -2174,6 +2222,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (10)
@@ -2240,6 +2300,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (6)
@@ -2306,6 +2378,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (9)
@@ -2533,6 +2617,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (20)
@@ -2693,6 +2789,17 @@ MonoBehaviour:
   shakeMagnitude: 0.05
   shakeDuration: 0.1
   switchAudio: {fileID: 1093451900}
+--- !u!114 &769991278 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4892265594880921451, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+  m_PrefabInstance: {fileID: 769991275}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769991276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5fe02908583e4ec6a4820beca6fbe21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &769991282 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3328400791846352351, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
@@ -2753,6 +2860,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (22)
@@ -2819,6 +2938,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (21)
@@ -2885,6 +3016,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (18)
@@ -3045,6 +3188,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (15)
@@ -3330,6 +3485,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (7)
@@ -3494,6 +3661,14 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 8835349776628639339, guid: c3b73ae76f3104ce796086d5054fb8e7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 8835349776628639339, guid: c3b73ae76f3104ce796086d5054fb8e7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3b73ae76f3104ce796086d5054fb8e7, type: 3}
 --- !u!4 &922127207 stripped
@@ -3556,6 +3731,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (17)
@@ -4157,6 +4344,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (16)
@@ -4830,6 +5029,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (24)
@@ -5276,6 +5487,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (27)
@@ -5559,6 +5782,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (13)
@@ -5893,6 +6128,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (11)
@@ -6341,6 +6588,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (25)
@@ -6567,6 +6826,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (14)
@@ -7479,6 +7750,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (26)
@@ -7639,6 +7922,18 @@ PrefabInstance:
       propertyPath: deathSound
       value: 
       objectReference: {fileID: 1093451904}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 769991276}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: playerDeathSpot
+      value: 
+      objectReference: {fileID: 769991278}
+    - target: {fileID: 4639116625248243894, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
+      propertyPath: exclamationPoint
+      value: 
+      objectReference: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
     - target: {fileID: 4639116625248243895, guid: cf8f8afcffb04d746b80a5f8e2aa8af7, type: 3}
       propertyPath: m_Name
       value: Spike (5)

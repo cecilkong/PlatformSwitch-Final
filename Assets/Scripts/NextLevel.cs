@@ -9,6 +9,7 @@ public class NextLevel : MonoBehaviour
     public AudioSource completeLevelAudio;
     public SceneLoader sceneLoader;
     private int nextSceneIndex;
+    public GameObject crossFadeObject;
 
     // Called after player reaches the end of a level, starts next level
     IEnumerator OnTriggerEnter2D(Collider2D other)
@@ -24,7 +25,7 @@ public class NextLevel : MonoBehaviour
                 yield return new WaitForSeconds(completeLevelAudio.clip.length / 2);
 
                 // start scene change
-                StartCoroutine(sceneLoader.LoadScene(nextSceneIndex));
+                StartCoroutine(sceneLoader.LoadScene(nextSceneIndex, 2f, crossFadeObject));
             }
         }
     }

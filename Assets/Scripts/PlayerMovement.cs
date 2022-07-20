@@ -14,6 +14,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private Transform groundCheckL;
     [SerializeField] private Transform groundCheckR;
+    // [SerializeField] private Transform wallCheckL;
+    // [SerializeField] private Transform wallCheckLTop;
+    // [SerializeField] private Transform wallCheckR;
+    // [SerializeField] private Transform wallCheckRTop;
     private float coyoteTime = 0.1f;
     private float coyoteTimeCounter;
     private float jumpBufferTime = 0.05f;
@@ -24,6 +28,8 @@ public class PlayerMovement : MonoBehaviour
     public AudioSource walkAudio;
 
     private GameMaster gm;
+
+    public Vector2 playerDeathLoc;
 
     void Start()
     {
@@ -63,10 +69,15 @@ public class PlayerMovement : MonoBehaviour
 
 
         // JUMPING
-        // Checks if player is grounded 
+        // Checks if player is grounded
+        // or has hit the wall
         if (Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"))
             || Physics2D.Linecast(transform.position, groundCheckL.position, 1 << LayerMask.NameToLayer("Ground"))
             || Physics2D.Linecast(transform.position, groundCheckR.position, 1 << LayerMask.NameToLayer("Ground")))
+            // || Physics2D.Linecast(transform.position, wallCheckL.position, 1 << LayerMask.NameToLayer("Ground"))
+            // || Physics2D.Linecast(transform.position, wallCheckLTop.position, 1 << LayerMask.NameToLayer("Ground"))
+            // || Physics2D.Linecast(transform.position, wallCheckR.position, 1 << LayerMask.NameToLayer("Ground"))
+            // || Physics2D.Linecast(transform.position, wallCheckRTop.position, 1 << LayerMask.NameToLayer("Ground")))
         {
             isGrounded = true;
         }
@@ -74,6 +85,14 @@ public class PlayerMovement : MonoBehaviour
         {
             isGrounded = false;
         }
+
+        // if (Physics2D.Linecast(transform.position, wallCheckL.position, 1 << LayerMask.NameToLayer("Ground"))
+        //     || Physics2D.Linecast(transform.position, wallCheckLTop.position, 1 << LayerMask.NameToLayer("Ground"))
+        //     || Physics2D.Linecast(transform.position, wallCheckR.position, 1 << LayerMask.NameToLayer("Ground"))
+        //     || Physics2D.Linecast(transform.position, wallCheckRTop.position, 1 << LayerMask.NameToLayer("Ground")))
+        // {
+        //     Debug.Log("Wallcheck detected.");
+        // }
 
         // Coyote Time & Jump Buffering
         if (isGrounded)
@@ -106,5 +125,6 @@ public class PlayerMovement : MonoBehaviour
             jumpBufferCounter = 0f;
         }
 
+        playerDeathLoc = new Vector2(rb.position.x, rb.position.y + 0.8f);
     }
 }

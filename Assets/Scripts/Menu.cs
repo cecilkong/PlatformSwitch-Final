@@ -9,16 +9,26 @@ public class Menu : MonoBehaviour
     // Manages all of the menu navigation and buttons
     
     public GameObject pauseScreen;
+    private bool isPaused;
+
+    void Awake()
+    {
+        isPaused = false;
+        Time.timeScale = 1f;
+    }
+
     public void Pause()
     {
         pauseScreen.SetActive(true);
-        Time.timeScale = 0f; 
+        Time.timeScale = 0f;
+        isPaused = true;
     }
     
     public void Resume()
     {
         pauseScreen.SetActive(false);
-        Time.timeScale = 1f; 
+        Time.timeScale = 1f;
+        isPaused = false;
     }
 
     public void Quit()
@@ -28,7 +38,7 @@ public class Menu : MonoBehaviour
 
     public void returnToMenu()
     {
-        SceneManager.LoadScene("Tutorial");
+        SceneManager.LoadScene("Title");
         Time.timeScale = 1f;
     }
 
@@ -46,11 +56,26 @@ public class Menu : MonoBehaviour
     }
     
     // Called after the player reaches the goal of each level
-    public void LoadNextLevel()
+    // public void LoadNextLevel()
+    // {
+    //     if (SceneManager.GetActiveScene().buildIndex + 1 < 3)
+    //     {
+    //         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    //     }
+    // }
+
+    void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex + 1 < 3)
+        if (Input.GetKeyUp(KeyCode.Escape))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if (isPaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
         }
     }
 }

@@ -125,3 +125,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathSound: {fileID: 0}
+  exclamationPoint: {fileID: 5403908493933661249, guid: ddca80b9b30394d1ebf8a8d764cb51ea, type: 3}
+  playerDeathSpot: {fileID: -4892265594880921451, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+  EPDelay: 0.3
