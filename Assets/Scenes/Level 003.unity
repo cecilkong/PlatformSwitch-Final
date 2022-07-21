@@ -398,15 +398,15 @@ PrefabInstance:
       objectReference: {fileID: 769991278}
     - target: {fileID: 417528384, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 481811668, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2144257427, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1363564284759643523, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
       propertyPath: m_Name
@@ -415,6 +415,10 @@ PrefabInstance:
     - target: {fileID: 1363564284759643523, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901869246017126633, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3328400791846352351, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
       propertyPath: m_RootOrder
@@ -438,7 +442,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3328400791846352351, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.84
+      value: -2.58
       objectReference: {fileID: 0}
     - target: {fileID: 3328400791846352351, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -483,6 +487,14 @@ PrefabInstance:
     - target: {fileID: 6301043935546012911, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
       propertyPath: m_Constraints
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8438503792158706882, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513050729015145485, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 769991277, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}

@@ -1637,6 +1637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   completeLevelAudio: {fileID: 2040589109}
   sceneLoader: {fileID: 206682347}
+  crossFadeObject: {fileID: 0}
 --- !u!1 &1137814757
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,6 +2860,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 534807139}
     m_Modifications:
+    - target: {fileID: 7452880406215112721, guid: c217e45eab3694c639a86dff82c5957e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7452880406215112735, guid: c217e45eab3694c639a86dff82c5957e, type: 3}
       propertyPath: m_text
       value: '

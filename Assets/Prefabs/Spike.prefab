@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.34437189, g: 0.13443395, b: 0.5377358, a: 1}
   m_FlipX: 0
@@ -124,5 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c74a32003e3a3024abe66c6f3e86d78e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 1
   deathSound: {fileID: 4107533776644177042, guid: 95e4a960e0f76422bab5eb815cc785d5, type: 3}
+  playerObject: {fileID: 0}
+  exclamationPoint: {fileID: 0}
+  playerDeathSpot: {fileID: 0}
+  EPDelay: 0.3
