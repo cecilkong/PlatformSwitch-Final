@@ -932,7 +932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6301862318089533691, guid: 792c43145a45541bf9b896e720bbc9ad, type: 3}
       propertyPath: m_Color.a
-      value: 0.4745098
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6301862318089533691, guid: 792c43145a45541bf9b896e720bbc9ad, type: 3}
       propertyPath: m_Color.b
@@ -4470,7 +4470,7 @@ MonoBehaviour:
   cameraShake: {fileID: 8862677874033683497}
   shakeMagnitude: 0.05
   shakeDuration: 0.1
-  switchAudio: {fileID: 950381808}
+  switchAudio: {fileID: 1014197873}
 --- !u!114 &769991278 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -4892265594880921451, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
@@ -5387,6 +5387,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f32cfe754e9c78343b2355bbf586ff78, type: 3}
+--- !u!82 &1014197873 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1612793840429601948, guid: f32cfe754e9c78343b2355bbf586ff78, type: 3}
+  m_PrefabInstance: {fileID: 1014197872}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1029273457
 PrefabInstance:
   m_ObjectHideFlags: 0
