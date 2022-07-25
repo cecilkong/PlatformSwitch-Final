@@ -134,6 +134,18 @@ PrefabInstance:
       propertyPath: m_text
       value: level xx
       objectReference: {fileID: 0}
+    - target: {fileID: 7452880406883134955, guid: c217e45eab3694c639a86dff82c5957e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.91764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 7452880406883134955, guid: c217e45eab3694c639a86dff82c5957e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.61960787
+      objectReference: {fileID: 0}
+    - target: {fileID: 7452880406883134955, guid: c217e45eab3694c639a86dff82c5957e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8235294
+      objectReference: {fileID: 0}
     - target: {fileID: 7452880408043563653, guid: c217e45eab3694c639a86dff82c5957e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
