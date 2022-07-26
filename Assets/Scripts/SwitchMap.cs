@@ -23,7 +23,7 @@ public class SwitchMap : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown("q"))
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown("q") || Input.GetKeyDown(KeyCode.RightShift))
         {
             switchAudio.Play();
             StartCoroutine(cameraShake.Shake(shakeDuration, shakeMagnitude));
