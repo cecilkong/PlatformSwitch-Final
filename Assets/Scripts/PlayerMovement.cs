@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
 
     public Vector2 playerDeathLoc;
 
+    public Animator playerAnimator;
+
     void Start()
     {
         gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
@@ -79,6 +81,12 @@ public class PlayerMovement : MonoBehaviour
             // || Physics2D.Linecast(transform.position, wallCheckR.position, 1 << LayerMask.NameToLayer("Ground"))
             // || Physics2D.Linecast(transform.position, wallCheckRTop.position, 1 << LayerMask.NameToLayer("Ground")))
         {
+            //play landing animation
+            if (isGrounded == false)
+            {
+                playerAnimator.SetTrigger("Landing");
+            }
+
             isGrounded = true;
         }
         else
@@ -120,6 +128,8 @@ public class PlayerMovement : MonoBehaviour
 
 
             jumpAudio.Play();
+
+            playerAnimator.SetTrigger("Jump");
 
             coyoteTimeCounter = 0f;
             jumpBufferCounter = 0f;
