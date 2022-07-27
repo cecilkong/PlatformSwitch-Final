@@ -11,6 +11,7 @@ public class SceneLoader : MonoBehaviour
     public int numLevels;
     public TextMeshProUGUI levelText;
     [SerializeField] private float levelStartDelay = 2f;
+
     // public NextLevel crossFadeObj;
     // private GameObject CFO; 
 
