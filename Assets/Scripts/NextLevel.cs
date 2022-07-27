@@ -26,7 +26,7 @@ public class NextLevel : MonoBehaviour
 
                 // start scene change
                 // StartCoroutine(sceneLoader.LoadScene(nextSceneIndex, 2f, crossFadeObject));
-                StartCoroutine(sceneLoader.LoadScene(nextSceneIndex, 0.8f));
+                StartCoroutine(sceneLoader.LoadScene(nextSceneIndex, 1.6f));
             }
         }
     }
