@@ -8,6 +8,7 @@ public class KillPlayer : MonoBehaviour
 {
     //public int Respawn;
     public AudioSource deathSound;
+    private Animator epJump;
     public GameObject playerObject;
     // private GameMaster gm;
     public GameObject exclamationPoint;
@@ -26,7 +27,9 @@ public class KillPlayer : MonoBehaviour
             Destroy(playerObject);
             EPinstance = Instantiate(exclamationPoint, playerDeathSpot.playerDeathLoc, Quaternion.identity);
             EPinstance.SetActive(true);
-            yield return new WaitForSeconds(deathSound.clip.length);
+            epJump = EPinstance.GetComponent<Animator>();
+            epJump.SetTrigger("EPJump");
+            yield return new WaitForSeconds(1.5f);
             DestroyImmediate(EPinstance, true);
             // exclamationPoint.SetActive(false);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
