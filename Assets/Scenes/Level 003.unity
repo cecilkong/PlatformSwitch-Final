@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &265215064 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8438503792158706882, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
-  m_PrefabInstance: {fileID: 769991275}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &303551464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -213,11 +208,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3754321375953862601, guid: 792c43145a45541bf9b896e720bbc9ad, type: 3}
   m_PrefabInstance: {fileID: 303551464}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &441920383 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4475133672352804851, guid: 28945afb1d20541ebb46f9eb0a2533ba, type: 3}
-  m_PrefabInstance: {fileID: 769991275}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &446918736 stripped
 MonoBehaviour:
@@ -480,17 +470,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 4.5
+  XDirectionalInput: 0
+  airMoveSpeed: 10
   jumpSpeed: 4.75
   groundCheck: {fileID: 582183245}
   groundCheckL: {fileID: 1541814788}
   groundCheckR: {fileID: 854247165}
-  wallCheckL: {fileID: 441920383}
-  wallCheckLTop: {fileID: 265215064}
   wallCheckR: {fileID: 777582526}
   wallCheckRTop: {fileID: 1871242164}
-  wallJumpForce: {x: 3, y: 4.5}
   wallSlidingSpeed: 1
+  wallJumpForce: {x: 15, y: 5.5}
   wallJumpDuration: 1
+  walljumpAngle: {x: 1, y: 3}
+  walljumpX: 0
+  walljumpY: 0
+  walljumpDirection: -1
   jumpAudio: {fileID: 1093451901}
   walkAudio: {fileID: 1093451902}
   playerDeathLoc: {x: 0, y: 0}
